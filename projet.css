@@ -1,0 +1,283 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Kumbh Sans',sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.big-box{
+    width: 90% ;
+    height: 9000px;
+    margin-left: 100px;   
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin-top:2rem;
+    margin-left:4rem ;
+    
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-right:300px;
+}
+.nav-item a {
+text-decoration: none;
+margin-right: 10px;
+}
+.icon-cart{
+    width: 80%;
+    
+}
+.image-avatar{
+    width: 30%;
+    margin-left: 1rem;
+}
+.small-box{
+
+    width: 85%;
+    height: 500px; 
+    margin-left: 100px;
+    margin-top: 70px;   
+    display: flex;
+    justify-content: space-between;
+     flex-wrap: wrap;
+}
+.image-product-1{
+    width:40%;
+    border-radius: 5px;  
+}
+.four-image{
+    margin-top:20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.image-product-1-thumbnail{
+    width:20%;
+    
+}
+.image-product-2-thumbnail{
+    width: 20%;
+}
+.image-product-3-thumbnail{
+    width: 20%;
+}
+.image-product-4-thumbnail{
+    width: 20%;
+}
+.space{
+    margin-top: 5px ;
+}
+.boxs{
+ display: flex;
+ flex-direction: column;
+}
+.button-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    
+    
+}
+.percent{
+    width:6.5%;
+    height: 20px;
+    margin-left:10px;
+    margin-top:3px;
+    background-color: hsl(25, 100%, 94%);
+
+} 
+.add-cart{
+    width: 60%;
+    height:40px;
+    background-color:hsl(26, 100%, 55%);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius:5px
+     5px 5px 5px;
+    
+    
+}
+.choose-number{
+background-color:hsl(223, 64%, 98%) ;
+width: 30%;
+height:30px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+border-radius: 5px;
+}
+.p1{
+    margin-right:0px ;
+    color: hsl(26, 100%, 55%);
+    font-size:18px;
+} 
+.p2{
+margin-left:0 ;
+font-size:14px;
+
+}
+.p3{
+    margin-left:0Px ;
+    color: hsl(26, 100%, 55%);
+     font-size:18px;
+}
+.info-box{
+    margin-right:6rem;
+}
+.paragraph1{
+   color:  hsl(26, 100%, 55%);
+}
+.cart{
+    width:20%;
+    
+}
+.term{
+    margin-right:20px ;
+}
+.rate{
+    text-decoration: line-through;
+}
+.style{
+    color: hsl(220, 13%, 13%)
+ hsl(219, 9%, 45%)
+ hsl(220, 14%, 75%)
+ hsl(223, 64%, 98%)
+ hsl(0, 0%, 100%)
+ hsl(0, 0%, 0%)  Black (with 75% opacity for lightbox background)
+  hsl(26, 100%, 55%)
+hsl(25, 100%, 94%)
+}
+.thirty-percent{
+    color:hsl(26, 100%, 55%);
+    font-size:14px;
+}
+.boser{
+    display: flex;
+}
+.mo{
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    visibility: hidden;
+}
+
+
+@media screen and (max-width:512px)  {
+.info-box{
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.image-product-1{
+    width: 550px;
+
+}
+body{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.big-box{
+    margin-left: 0;
+}
+.small-box{
+    margin-left: 0;
+}
+.header{
+    display: none;
+}
+.four-image{
+    visibility: hidden;
+}
+
+.button-box{
+    display:flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    
+}
+.rate{
+    display:flex;
+    flex-direction: row;
+}
+.percent{
+    margin-left: 1rem;
+}
+.boxs{
+    display: flex;
+    flex-direction: row;
+}
+.bose{
+    margin-left: 19rem;
+}
+.rate{
+    margin-left: 0.5rem;
+}
+.choose-number{
+    width: 400px;
+}
+.add-cart{
+    width: 400px;
+
+}
+.image-avatar{
+    width: 25px;
+    
+    
+}
+.icon-cart{
+    width: 20px;
+    margin-left: 0;
+    
+    
+}
+.mo{
+  display: flex;
+  margin-left: 12rem;
+
+}
+.box{
+    margin-right: 1rem;
+}
+.bar{
+    margin-right: 2rem;
+    visibility: visible;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
